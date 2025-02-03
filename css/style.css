@@ -33,13 +33,60 @@ img {
     border: 10px dashed #FFFFFF;
 }
 
-/* Default div Styles */
-div {
-    min-height: 125px;
-    padding: 20px;
-    border: 3px solid #FFFFFF;
-}
 
+
+
+
+
+/* Default div Styles */
+/* 
+
+
+
+
+
+
+
+
+
+-5: red div border [FAILED]
+
+
+Checking blue div format ...
+-5: the blue div border [FAILED]
+
+
+Checking blue h2..
+-5: all blue h2 elements color [FAILED]
+
+
+Checking yellow div format ...
+-5: yellow div border [FAILED]
+
+
+Checking h2..
+Checking green div format ...
+-5: green div background color [FAILED]
+
+
+-5: the green div border [FAILED]
+
+
+
+*/
+
+/*
+Style the default div elements with:
+A flexible height of at least 125px tall 
+Padding of 20px on all sides
+A 3px solid white border on all sides.
+*/
+
+div {
+    min-height: 125px !important;
+    padding: 20px !important;
+    border: 3px solid #FFFFFF !important;
+}
 /* Introduction Class */
 .introduction {
     border-radius: 15px;
@@ -47,42 +94,87 @@ div {
     line-height: 2;
 }
 
-/* Red Class */
+/* Red Class 
+
+
+Background color is hexadecimal value for red
+Text is aligned on the right side 
+A left margin of 50px;
+A  border of 2px on the bottom and 5px on the left;
+
+*/
+
+
+
 .red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px solid #FF0000;
-    border-bottom: 2px solid #FF0000;
+    border-left: 5px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
 }
 
 /* Blue Div Styles */
+
+/*
+
+Background color is hex value for blue
+Text is aligned on the left side
+A right margin of 50px;
+A  border of 5px on the right and 2px on the top;
+WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  – Dark on blue is too hard to read.   
+Use #C4C4C4 for the heading and paragraph text
+
+*/
+
+
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #0000FF;
-    border-top: 2px solid #0000FF;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
     color: #C4C4C4;
 }
 
-/* Yellow Div Styles */
+/* Yellow Div Styles 
+
+The yellow div has the following styles
+Background color is hexadecimal value for yellow 
+Text is aligned on the right side
+A left margin of 50px;
+A border of 2px on the bottom and 5px on the left;
+WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  too
+Use #707070 for the paragraph text
+
+*/
 .yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px solid #FFFF00;
-    border-bottom: 2px solid #FFFF00;
+    border-left: 5px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
     color: #707070;
 }
 
-/* Green Div Styles */
+/* Green Div Styles 
+
+
+The green div has the following styles:
+The background color is a hexadecimal value for green  (You must use #00EB00, #008500, or #00D800)
+Text is aligned on the left side
+A right margin of 50px;
+A  border of 5px on the right and 2px on the top;
+
+*/
+
+
 .green {
-    background-color: #00EB00;
+    background-color: #00D800;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #00EB00;
-    border-top: 2px solid #00EB00;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
 }
 
 /* Footer Styles */
