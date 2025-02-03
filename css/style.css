@@ -7,7 +7,17 @@ body {
     color: #FFFFFF;
     margin: 20px 20px 0 20px;
 }
-
+/* h1 Styles */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+/* h2 Styles */
+h2 {
+    font-size: 30px;
+    color: #0D0D0D;
+}
 /* Paragraph Styles */
 p {
     font-size: 24px;
@@ -17,26 +27,14 @@ p {
 
 
 
-/* h1 Styles */
-h1 {
-    font-size: 42px;
-    text-align: center;
-    padding: 15px;
-}
-
-/* h2 Styles */
-h2 {
-    font-size: 30px;
-    color: #0D0D0D;
-}
 
 
 
-/* Image Styles */
+/* Image Styles margin?   */
 img {
     width: 250px;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     border: 10px dashed #FFFFFF;
 }
 
@@ -90,10 +88,10 @@ A 3px solid white border on all sides.
 */
 
 div {
-    min-height: 125px !important;
-    padding: 20px !important;
-    border: 3px solid #FFFFFF !important;
-}
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
+  }
 /* Introduction Class */
 .introduction {
     border-radius: 15px;
@@ -105,7 +103,11 @@ div {
 
 .red, .blue, .green, .yellow {
     border: none;
-  }
+}
+
+
+
+
 /* Red Class 
 
 
@@ -122,8 +124,8 @@ A  border of 2px on the bottom and 5px on the left;
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px solid #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
 }
 
 
@@ -151,6 +153,10 @@ Use #C4C4C4 for the heading and paragraph text
 }
 
 
+.blue h2 {
+    color: #C4C4C4;
+}
+
 
 /* Yellow Div Styles 
 
@@ -167,8 +173,8 @@ Use #707070 for the paragraph text
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px solid #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
     color: #707070;
 }
 
@@ -193,13 +199,9 @@ A  border of 5px on the right and 2px on the top;
 }
 
 
-.blue h2 {
-    color: #C4C4C4;
-}
-
 /* Footer Styles */
 footer {
-    background: linear-gradient(to right, #000000, #0000FF 25%, #0066FF 70%, #000000);
+    background: linear-gradient(0deg, #000000, #0000FF 25%, #0066FF 70%, #000000);
     border: 5px solid #FFFFFF;
 }
 
