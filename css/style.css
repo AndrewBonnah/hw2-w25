@@ -114,6 +114,7 @@ A  border of 2px on the bottom and 5px on the left;
     border-bottom: 2px solid #FFFFFF;
 }
 
+
 /* Blue Div Styles */
 
 /*
@@ -136,6 +137,11 @@ Use #C4C4C4 for the heading and paragraph text
     border-top: 2px solid #FFFFFF;
     color: #C4C4C4;
 }
+
+.blue h2 {
+    color: #C4C4C4;
+}
+
 
 /* Yellow Div Styles 
 
